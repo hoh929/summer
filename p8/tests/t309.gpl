@@ -1,0 +1,8 @@
+forward animation bounce(rectangle cur_rectangle);
+
+rectangle rect(animation_block = bounce);
+
+animation bounce(triangle cur_rectangle)
+{
+  print("animation bounce was called");
+}

@@ -1,0 +1,23 @@
+// when a double is passed to random, it should be rounded down
+// On some operations systems (especially MAC) the random values may be different than the posted values
+//
+// *** MAKE SURE ALL the values your program generates are random and 0 <= < 10 ***
+//
+int i0 = random(10.123);
+int i1 = random(10.123);
+int i2 = random(10.123);
+int i3 = random(10.123);
+int i4 = random(10.123);
+int i5 = random(10.123);
+int i6 = random(10.123);
+int i7 = random(10.123);
+int i9 = random(10.123);
+double j0 = random(10.123);
+double j1 = random(10.123);
+double j2 = random(10.123);
+double j3 = random(10.123);
+double j4 = random(10.123);
+double j5 = random(10.123);
+double j6 = random(10.123);
+double j7 = random(10.123);
+double j9 = random(10.123);
